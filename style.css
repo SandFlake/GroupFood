@@ -1,0 +1,38 @@
+
+body {
+    height: 2500px; /* Used to enable scrolling */
+    background: green;
+    background-image: url("wood.jpg");
+    color: black;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.alert-dark {
+    background: black;
+}
+
+.titleAlert ul {
+    display: inline;
+}
+.titleAlert li {
+    list-style-type: none;
+    display: inline;
+}
+.titleAlert img {
+    width: 100px;
+    height: auto;
+}
+
+#recipe-list {
+    padding-left: 0;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
